@@ -1,0 +1,2 @@
+Placeholder — replace public/images/screenshot-placeholder.png with a real
+screenshot of the running app, referenced by README.md.
