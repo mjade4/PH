@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+/* Leaflet renders its own DOM outside React's control, so we theme it here
+   rather than with Tailwind classes (which Leaflet's markup won't pick up). */
+
+.region-marker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 9999px;
+  border: 2px solid #fbf6ec;
+  box-shadow: 0 1px 4px rgba(10, 42, 46, 0.45);
+  color: #fbf6ec;
+  font-size: 12px;
+}
+
+.region-marker--luzon {
+  background-color: #12938f;
+}
+.region-marker--visayas {
+  background-color: #e8623f;
+}
+.region-marker--mindanao {
+  background-color: #0f3a3f;
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: 0.5rem;
+  background-color: #fbf6ec;
+  color: #0a2a2e;
+}
+
+.leaflet-popup-tip {
+  background-color: #fbf6ec;
+}
+
+/* Custom scrollbar for the sidebar panels — subtle, matches the palette */
+.themed-scroll::-webkit-scrollbar {
+  width: 8px;
+}
+.themed-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+.themed-scroll::-webkit-scrollbar-thumb {
+  background-color: #e9dab4;
+  border-radius: 9999px;
+}
