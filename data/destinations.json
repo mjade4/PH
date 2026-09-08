@@ -1,0 +1,90 @@
+[
+  {
+    "id": "manila",
+    "name": "Manila",
+    "region": "Luzon",
+    "lat": 14.5995,
+    "lng": 120.9842,
+    "tags": ["city", "history", "food"],
+    "bestTimeToVisit": "November – February (dry, cooler season)",
+    "description": "The capital and gateway to the country. Walk the Spanish-era walls of Intramuros, dig into Filipino food halls, and use it as a jumping-off point for the rest of Luzon.",
+    "image": "/images/placeholder-manila.jpg"
+  },
+  {
+    "id": "baguio",
+    "name": "Baguio",
+    "region": "Luzon",
+    "lat": 16.4023,
+    "lng": 120.596,
+    "tags": ["mountain", "city", "hiking"],
+    "bestTimeToVisit": "December – February (cool 'summer capital' climate)",
+    "description": "A pine-covered mountain city in the Cordilleras, known for cool weather, night markets, and easy access to rice-terrace day trips.",
+    "image": "/images/placeholder-baguio.jpg"
+  },
+  {
+    "id": "cebu",
+    "name": "Cebu",
+    "region": "Visayas",
+    "lat": 10.3157,
+    "lng": 123.8854,
+    "tags": ["city", "beach", "history"],
+    "bestTimeToVisit": "December – May (dry season)",
+    "description": "The Visayas' main hub — a mix of colonial-era landmarks, a lively food scene, and quick boat access to nearby islands like Bantayan and Malapascua.",
+    "image": "/images/placeholder-cebu.jpg"
+  },
+  {
+    "id": "bohol",
+    "name": "Bohol",
+    "region": "Visayas",
+    "lat": 9.8499,
+    "lng": 124.1435,
+    "tags": ["beach", "nature"],
+    "bestTimeToVisit": "March – May (driest, calmest seas)",
+    "description": "Home to the Chocolate Hills and tarsier sanctuaries, plus the white-sand beaches of Panglao Island for diving and relaxing.",
+    "image": "/images/placeholder-bohol.jpg"
+  },
+  {
+    "id": "boracay",
+    "name": "Boracay",
+    "region": "Visayas",
+    "lat": 11.9674,
+    "lng": 121.9248,
+    "tags": ["beach", "nightlife"],
+    "bestTimeToVisit": "November – April (dry season, calm water)",
+    "description": "One of the country's most famous beach destinations — powder-white sand along White Beach, watersports, and a lively strip of bars and restaurants.",
+    "image": "/images/placeholder-boracay.jpg"
+  },
+  {
+    "id": "siargao",
+    "name": "Siargao",
+    "region": "Mindanao",
+    "lat": 9.8482,
+    "lng": 126.0458,
+    "tags": ["beach", "surfing"],
+    "bestTimeToVisit": "August – November (best swell for surfing)",
+    "description": "The country's surfing capital, famous for Cloud 9's reef break, island-hopping to Naked and Guyam islands, and a laid-back, palm-lined pace of life.",
+    "image": "/images/placeholder-siargao.jpg"
+  },
+  {
+    "id": "davao",
+    "name": "Davao",
+    "region": "Mindanao",
+    "lat": 7.1907,
+    "lng": 125.4553,
+    "tags": ["city", "nature"],
+    "bestTimeToVisit": "March – May (dry season)",
+    "description": "Mindanao's largest city, at the foot of Mt. Apo. A calm, orderly base for durian markets, eagle sanctuaries, and trips into the surrounding highlands.",
+    "image": "/images/placeholder-davao.jpg"
+  },
+  {
+    "id": "palawan",
+    "name": "Palawan (El Nido)",
+    "region": "Luzon",
+    "lat": 11.1949,
+    "lng": 119.4079,
+    "tags": ["beach", "nature", "island-hopping"],
+    "bestTimeToVisit": "December – May (dry season, best lagoon visibility)",
+    "description": "Limestone cliffs, hidden lagoons, and island-hopping tours around El Nido and Coron. Widely considered one of the most scenic destinations in the country.",
+    "image": "/images/placeholder-palawan.jpg"
+  }
+]
